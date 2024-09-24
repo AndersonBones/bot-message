@@ -1,0 +1,25 @@
+{
+  "name": "bot-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "nodemon": "^3.1.4",
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.2",
+    "wbm": "^1.1.16",
+    "whatsapp-web.js": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "tsx": "^4.16.5"
+  }
+}
